@@ -1,0 +1,23 @@
+.wip {
+  flex-wrap: nowrap;
+  font-weight: 600;
+  font-size: 3rem;
+  background-image: -webkit-linear-gradient(to right, #c4ffc4, #9bec9b, #4cfd52, #9bec9b, #c4ffc4);
+  background-image: linear-gradient(to right, #c4ffc4, #9bec9b, #4cfd52, #9bec9b, #c4ffc4);
+  background-size: 200%;
+  animation: gradientAnimation 10s linear infinite, fadeUpDown .4s ease-out;;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 200%;
+  }
+}
