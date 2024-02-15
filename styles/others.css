@@ -11,10 +11,14 @@
   transition: all 0.25s;
 }
 
+.txt-gradient-animation {
+  animation: gradientAnimation 4s linear infinite;
+}
+
 .logo {
   font-weight: 600;
   font-size: 4rem;
-  animation: startUp .5s ease-in-out, gradientAnimation 1.5s linear infinite;
+  animation: startUp .5s ease-in-out, gradientAnimation 4s linear infinite;
 }
 
 .credits-button {
@@ -25,8 +29,8 @@
   font-weight: 600;
   font-size: 1rem;
   padding: 5px 12px;
-  animation: startDown 1s ease-in-out, gradientAnimation 1.5s linear infinite;
-  box-shadow: #4cfd52 1px 1px 1px;
+  animation: startDown 1s ease-in-out, gradientAnimation 4s linear infinite;
+  box-shadow: rgba(76, 253, 82, .4) 1px 1px 1px;
   transition: all 0.25s;
 }
 
