@@ -8,19 +8,34 @@
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
+  transition: all 0.25s;
 }
 
 .logo {
   font-weight: 600;
-  font-size: 2.8rem;
-  animation: startUp .4s ease-out, gradientAnimation 1.5s linear infinite;
+  font-size: 4rem;
+  animation: startUp .5s ease-in-out, gradientAnimation 1.5s linear infinite;
 }
 
-.credits {
+.credits-button {
+  margin-top: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
   font-weight: 600;
-  font-size: 1.2rem;
-  margin: -15px 20px 0 0;
-  animation: startDown .4s ease-out, gradientAnimation 1.5s linear infinite;
+  font-size: 1rem;
+  padding: 5px 12px;
+  animation: startDown 1s ease-in-out, gradientAnimation 1.5s linear infinite;
+  box-shadow: #4cfd52 1px 1px 1px;
+  transition: all 0.25s;
+}
+
+.cool-txt:hover {
+  transform: scale(1.1);
+}
+
+.cool-txt:active {
+  transform: scale(.9);
 }
 
 @keyframes startUp {
@@ -35,9 +50,9 @@
 }
 
 @keyframes startDown {
-  0% {
+  0%, 40% {
     opacity: 0;
-    transform: translateY(-30px);
+    transform: translateY(30px);
   }
   100% {
     opacity: 1;
