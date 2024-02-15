@@ -1,7 +1,5 @@
 .wip {
   flex-wrap: nowrap;
-  font-weight: 600;
-  font-size: 3rem;
   background-image: -webkit-linear-gradient(to right, #c4ffc4, #9bec9b, #4cfd52, #9bec9b, #c4ffc4);
   background-image: linear-gradient(to right, #c4ffc4, #9bec9b, #4cfd52, #9bec9b, #c4ffc4);
   background-size: 200%;
@@ -11,6 +9,24 @@
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
+}
+
+.txt1 {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.txt2 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: -15px 0 0 0;
+}
+
+.temporary-container {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
 }
 
 @keyframes gradientAnimation {
