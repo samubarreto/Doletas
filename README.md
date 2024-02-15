@@ -1,8 +1,7 @@
 <div align="center">
 
-  # 🪙Doletas
-  🔨 O projeto ainda está em desenvolvimento<br>
-    
+  # 💲Doletas
+  
   ## Acompanhe o desenvolvimento: [AQUI](https://samubarreto.github.io/Doletas/)
 
 </div>
