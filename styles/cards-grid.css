@@ -1,8 +1,9 @@
 .cards-grid {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
   align-items: center;
-  height: 50%;
+  height: 60%;
   width: 60%;
   background-color: rgb(253, 253, 253);
   box-shadow: #e1e1e1 1px 1px 9px;
@@ -28,5 +29,11 @@
   .cards-grid {
     width: 90%;
     height: 60%;
+  }
+}
+
+@media (max-width: 780px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
   }
 }
