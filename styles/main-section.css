@@ -3,7 +3,7 @@
   background-image: -webkit-linear-gradient(to right, #c4ffc4, #9bec9b, #4cfd52, #9bec9b, #c4ffc4);
   background-image: linear-gradient(to right, #c4ffc4, #9bec9b, #4cfd52, #9bec9b, #c4ffc4);
   background-size: 200%;
-  animation: gradientAnimation 10s linear infinite, fadeUpDown .4s ease-out;;
+  animation: gradientAnimation 5s linear infinite, fadeUpDown .4s ease-out;;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
