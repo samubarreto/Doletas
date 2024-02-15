@@ -3,6 +3,6 @@
   # 🪙Doletas
   🔨 O projeto ainda está em desenvolvimento<br>
     
-  ## Acompanhe o desenvolvimento: [AQUI](samubarreto.github.io/Doletas/)
+  ## Acompanhe o desenvolvimento: [AQUI](https://samubarreto.github.io/Doletas/)
 
 </div>
