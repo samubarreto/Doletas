@@ -1,4 +1,4 @@
-.wip {
+.wip-text {
   flex-wrap: nowrap;
   background-image: -webkit-linear-gradient(to right, #c4ffc4, #9bec9b, #4cfd52, #9bec9b, #c4ffc4);
   background-image: linear-gradient(to right, #c4ffc4, #9bec9b, #4cfd52, #9bec9b, #c4ffc4);
@@ -20,6 +20,12 @@
   font-weight: 600;
   font-size: 1.2rem;
   margin: -15px 0 0 0;
+}
+
+.txt3 {
+  font-weight: 400;
+  font-size: .8rem;
+  margin: -5px 0;
 }
 
 .temporary-container {
