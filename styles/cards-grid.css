@@ -6,18 +6,19 @@
   height: 60%;
   width: 60%;
   background-color: rgb(253, 253, 253);
-  box-shadow: #e1e1e1 1px 1px 9px;
   margin-bottom: 1.3rem;
   margin-top: 1rem;
-  border: none;
+  border: 2px solid rgba(204, 204, 204, 0.1);
   border-radius: 75px;
   animation: startMid 1.5s ease-in-out, gradientAnimation 1.5s linear infinite;
+  padding: 30px;
+  gap: 15px;
 }
 
 @keyframes startMid {
   0%, 50% {
     opacity: 0;
-    transform: scale(.5);
+    transform: scale(.7);
   }
   100% {
     opacity: 1;
@@ -25,7 +26,7 @@
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1400px) {
   .cards-grid {
     width: 90%;
     height: 60%;
