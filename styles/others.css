@@ -11,7 +11,7 @@
   transition: all 0.25s;
 }
 
-.txt-gradient-animation {
+.gradient-animation {
   animation: gradientAnimation 4s linear infinite;
 }
 
