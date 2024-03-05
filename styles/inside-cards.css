@@ -1,0 +1,12 @@
+.coin-name {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.real-coin {
+  border-radius: 25px;
+  border: none;
+  background-color: rgba(204, 204, 204, .1);
+  border: 2px solid rgba(204, 204, 204, .3);
+  padding: 3px 10px;
+}
