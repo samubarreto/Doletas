@@ -4,9 +4,10 @@
 }
 
 .real-coin {
+  font-weight: 700;
   border-radius: 25px;
   border: none;
-  background-color: rgba(204, 204, 204, .5);
+  background-color: rgba(204, 204, 204, .1);
   border: 2px solid rgba(204, 204, 204, .3);
   padding: 3px 20px;
 }
