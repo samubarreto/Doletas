@@ -34,14 +34,14 @@
   transition: all 0.25s;
 }
 
-/* .cool-txt:hover {
+.cool-txt.special:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
 
-.cool-txt:active {
+.cool-txt.special:active {
   transform: scale(.9);
-} */
+}
 
 @keyframes startUp {
   0% {

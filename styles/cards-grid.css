@@ -40,10 +40,15 @@
   
   .one-card {
     flex-direction: row !important;
+    align-items: center;
     gap: 15px;
   }
 
   .coin-name {
     font-size: 2rem !important;
+  }
+
+  .real-coin {
+    padding: 3px 10px;
   }
 }
