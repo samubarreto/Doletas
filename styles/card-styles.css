@@ -20,3 +20,13 @@
 .one-card:active {
   transform: scale(1);
 }
+
+@media (max-width: 780px) {
+
+  .one-card {
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+
+  }
+}
