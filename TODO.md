@@ -1,4 +1,4 @@
-# Feafures e melhorias futuras 😎👍
+# Features e melhorias futuras 😎👍
 
 * [ ] Melhorar front
 * [ ] Adicionar função de conversão livre
