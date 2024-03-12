@@ -1,5 +1,4 @@
 .cool-txt {
-  font-weight: 700;
   flex-wrap: nowrap;
   background-image: -webkit-linear-gradient(to right, #c4ffc4, #9bec9b, #4cfd52, #4cfd52, #4cfd52, #9bec9b, #c4ffc4);
   background-image: linear-gradient(to right, #c4ffc4, #9bec9b, #4cfd52, #4cfd52, #4cfd52, #9bec9b, #c4ffc4);
