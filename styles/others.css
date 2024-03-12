@@ -1,4 +1,5 @@
 .cool-txt {
+  font-weight: 700;
   flex-wrap: nowrap;
   background-image: -webkit-linear-gradient(to right, #c4ffc4, #9bec9b, #4cfd52, #4cfd52, #4cfd52, #9bec9b, #c4ffc4);
   background-image: linear-gradient(to right, #c4ffc4, #9bec9b, #4cfd52, #4cfd52, #4cfd52, #9bec9b, #c4ffc4);
@@ -21,7 +22,7 @@
   animation: startUp .5s ease-in-out, gradientAnimation 4s linear infinite;
 }
 
-.credits-button {
+.credits {
   margin-top: 1rem;
   cursor: pointer;
   border: none;
@@ -34,12 +35,14 @@
   transition: all 0.25s;
 }
 
-.cool-txt.special:hover {
+.cool-txt.credits:hover,
+.cool-txt.logo:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
 
-.cool-txt.special:active {
+.cool-txt.credits:active,
+.cool-txt.logo:active {
   transform: scale(.9);
 }
 
