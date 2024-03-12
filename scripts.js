@@ -17,22 +17,12 @@ const mainCotacoes = () => {
   fetch('https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,GBP-BRL')
     .then(response => {
       if (response.status === 200) {
-        return response.json();
-      } else {
-        throw new Error('Erro na requisição. Status de resposta: ' + response.status);
+        response.json().then(payload => {
+          fillJs(payload);
+        });
       }
     })
-    .then(payload => {
-      fillJs(payload);
-    })
-    .catch(error => {
-      console.error('Erro na requisição:', error);
-    });
 };
 
 mainCotacoes();
 setInterval(mainCotacoes, 30000);
-
-
-mainCotacoes();
-setInterval(mainCotacoes, 30000)

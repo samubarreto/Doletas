@@ -9,7 +9,8 @@
 ## Features e melhorias futuras 😎👍
 
 * [X] Melhorar front
-* [X] setTimeOut de 30s para bater na API
+* [X] setInterval de 30s para bater na API
+* [ ] Indicação visual dos 30s
 * [ ] Adicionar função de conversão livre
 * [ ] Botão com cooldown de 5s para bater manualmente na API e resetar os 30s automático
 * [ ] Adicionar gráfico para acompanhamento da cotação
