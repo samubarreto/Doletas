@@ -25,4 +25,4 @@ const mainCotacoes = () => {
 };
 
 mainCotacoes();
-setInterval(mainCotacoes, 30000);
+setInterval(mainCotacoes, 120000);

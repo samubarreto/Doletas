@@ -9,10 +9,10 @@
 ## Features e melhorias futuras 😎👍
 
 * [X] Melhorar front
-* [X] setInterval de 30s para bater na API
-* [ ] Indicação visual dos 30s
+* [X] setInterval de 120s para bater na API
 * [ ] Adicionar função de conversão livre
-* [ ] Botão com cooldown de 5s para bater manualmente na API e resetar os 30s automático
+* [ ] Indicação visual dos 120s
+* [ ] Botão com cooldown de 60s para bater manualmente na API e resetar os 120s automático
 * [ ] Adicionar gráfico para acompanhamento da cotação
 * [ ] Scrollbar no grid para conseguir colocar infinitas conversões
 * [ ] Usuário adicionar/Remover cards de conversão livremente e salvar no localStorage

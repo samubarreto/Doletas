@@ -12,7 +12,7 @@
 }
 
 .one-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
   border: 4px solid rgba(204, 204, 204, .4);
 }
 
@@ -21,11 +21,9 @@
 }
 
 @media (max-width: 780px) {
-
   .one-card {
     flex-direction: row;
     align-items: center;
     gap: 15px;
-
   }
 }
