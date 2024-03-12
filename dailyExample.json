@@ -1,0 +1,51 @@
+[
+  {
+    "code": "USD",
+    "codein": "BRL",
+    "name": "Dólar Americano/Real Brasileiro",
+    "high": "4.9949",
+    "low": "4.9588",
+    "varBid": "0.0057",
+    "pctChange": "0.11",
+    "bid": "4.9823",
+    "ask": "4.9833",
+    "timestamp": "1710260880",
+    "create_date": "2024-03-12 13:28:00"
+  },
+  {
+    "high": "4.9791",
+    "low": "4.9758",
+    "varBid": "0.0017",
+    "pctChange": "0.03",
+    "bid": "4.9783",
+    "ask": "4.9793",
+    "timestamp": "1710192574"
+  },
+  {
+    "high": "4.9923",
+    "low": "4.9344",
+    "varBid": "0.0029",
+    "pctChange": "0.06",
+    "bid": "4.9825",
+    "ask": "4.9845",
+    "timestamp": "1710104369"
+  },
+  {
+    "high": "4.9923",
+    "low": "4.9344",
+    "varBid": "0.046",
+    "pctChange": "0.93",
+    "bid": "4.9805",
+    "ask": "4.9815",
+    "timestamp": "1709933360"
+  },
+  {
+    "high": "4.9473",
+    "low": "4.9316",
+    "varBid": "0.0005",
+    "pctChange": "0.01",
+    "bid": "4.935",
+    "ask": "4.936",
+    "timestamp": "1709847002"
+  }
+]

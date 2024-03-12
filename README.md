@@ -1,18 +1,20 @@
 <div align="center">
 
-  # Acompanhe o desenvolvimento do 💲Doletas: [AQUI](https://samubarreto.github.io/Doletas/)
+# Acompanhe o desenvolvimento do 💲Doletas: [AQUI](https://samubarreto.github.io/Doletas/)
+
   [![image](https://github.com/samubarreto/Doletas/assets/70921394/3bd1aebb-5c61-4c3d-ae30-fd0eef5eef5b)](https://samubarreto.github.io/Doletas/)
 
-  <div align="left">
-    
-  ## Features e melhorias futuras 😎👍
-  
-  * [ ] Melhorar front
-  * [ ] Adicionar função de conversão livre
-  * [ ] setTimeOut de 30s para bater na API
-  * [ ] Botão com cooldown de 5s para bater manualmente na API e resetar os 30s automático
-  * [ ] Adicionar gráfico para acompanhamento da cotação
-  * [ ] Scrollbar no grid para conseguir colocar infinitas conversões
-  * [ ] Usuário adicionar/Remover cards de conversão livremente e salvar no localStorage
-  </div>
+<div align="left">
+
+## Features e melhorias futuras 😎👍
+
+* [X] Melhorar front
+* [ ] Adicionar função de conversão livre
+* [ ] setTimeOut de 30s para bater na API
+* [ ] Botão com cooldown de 5s para bater manualmente na API e resetar os 30s automático
+* [ ] Adicionar gráfico para acompanhamento da cotação
+* [ ] Scrollbar no grid para conseguir colocar infinitas conversões
+* [ ] Usuário adicionar/Remover cards de conversão livremente e salvar no localStorage
+
+</div>
 </div>
