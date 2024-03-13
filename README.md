@@ -10,7 +10,7 @@
 
 * [X] Melhorar front
 * [X] setInterval de 120s para bater na API
-* [ ] Adicionar função de conversão livre
+* [ ] Adicionar função de conversão livre - IN PROGRESS
 * [ ] Indicação visual dos 120s
 * [ ] Botão com cooldown de 60s para bater manualmente na API e resetar os 120s automático
 * [ ] Adicionar gráfico para acompanhamento da cotação
@@ -18,4 +18,4 @@
 * [ ] Usuário adicionar/Remover cards de conversão livremente e salvar no localStorage
 
 </div>
-</div>
+</div
