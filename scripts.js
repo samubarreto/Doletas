@@ -35,14 +35,17 @@ let ftInput2 = document.getElementById('js-ft-input-2');
 let ftInput3 = document.getElementById('js-ft-input-3');
 
 ftInput1.addEventListener('keydown', () => {
+  console.log(`1 - ${ftInput1.value} - ${convert1}`)
   freeConvert('1', ftInput1.value, convert1);
 });
 
 ftInput2.addEventListener('keydown', () => {
+  console.log(`2 - ${ftInput2.value} - ${convert2}`)
   freeConvert('2', ftInput2.value, convert2);
 });
 
 ftInput3.addEventListener('keydown', () => {
+  console.log(`3 - ${ftInput3.value} - ${convert3}`)
   freeConvert('3', ftInput3.value, convert3);
 });
 
