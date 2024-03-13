@@ -1,8 +1,53 @@
-.main-transaction-coins {
+.main-transaction-coins,
+.FT-from-container,
+.FT-to-container {
   border-radius: 25px;
-  background-color: rgba(204, 204, 204, .1);
+  background-color: #cccccc1a;
   border: 2px solid rgba(204, 204, 204, .3);
-  padding: 3px 20px;
+  padding: 3px 15px;
+}
+
+.FT-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  margin: 1rem 0;
+}
+
+.FT-input,
+.FT-res {
+  min-width: 100px;
+  max-width: 100px;
+  font-weight: 400;
+  border: none;
+  background-color: #cccccc1a;
+  transition: all 0.15s;
+  color: #ffffff;
+  padding: 0 5px;
+  border-radius: 25px;
+}
+
+.FT-input:focus {
+  border-bottom: solid 1px #ffffff;
+  outline: none;
+}
+
+.FT-from-container,
+.FT-to-container {
+  padding: 3px 6px;
+  margin: 3px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-separator {
+  background-color: #ffffff;
+  height: 20px;
+  width: 1px;
+  margin: 0 5px;
 }
 
 @media (max-width: 780px) {

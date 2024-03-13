@@ -17,12 +17,7 @@
 }
 
 .one-card:hover {
-  transform: scale(1.03);
   border: 4px solid rgba(204, 204, 204, .4);
-}
-
-.one-card:active {
-  transform: scale(1);
 }
 
 @media (max-width: 780px) {

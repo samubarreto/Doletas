@@ -1,109 +1,159 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-  <head>
+<head>
 
-    <meta charset="UTF-8">
-    <meta name="author" content="Samuel Pereira Barreto">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta names="keywords" content="JavaScript, CSS, HTML, Rest api, consuming api, public api">
-    <meta name="description" content="A web application that allows monitoring the appreciation of the brazilian Real, by Samuel Pereira (@samubarreto on Github)">
-    <meta property="og:image" content="https://samubarreto.github.io/Doletas/source/favicon.png">
-    <meta property="og:image:width" content="128">
-    <meta property="og:image:height" content="128">
-    <meta property="og:image:alt" content="Open on your Browser">
+  <meta charset="UTF-8">
+  <meta name="author" content="Samuel Pereira Barreto">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta names="keywords" content="JavaScript, CSS, HTML, Rest api, consuming api, public api">
+  <meta name="description"
+    content="A web application that allows monitoring the appreciation of the brazilian Real, by Samuel Pereira (@samubarreto on Github)">
+  <meta property="og:image" content="https://samubarreto.github.io/Doletas/source/favicon.png">
+  <meta property="og:image:width" content="128">
+  <meta property="og:image:height" content="128">
+  <meta property="og:image:alt" content="Open on your Browser">
 
-    <link rel="icon" href="source/favicon.png">
+  <link rel="icon" href="source/favicon.png">
 
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/cards-grid.css">
-    <link rel="stylesheet" href="styles/others.css">
-    <link rel="stylesheet" href="styles/card-styles.css">
-    <link rel="stylesheet" href="styles/inside-cards.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/cards-grid.css">
+  <link rel="stylesheet" href="styles/others.css">
+  <link rel="stylesheet" href="styles/card-styles.css">
+  <link rel="stylesheet" href="styles/inside-cards.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
-    <title>Doletas</title>
+  <title>Doletas</title>
 
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <section class="upper">
-      <a href="https://github.com/samubarreto/Doletas" target="_blank">
-        <h1 class="cool-txt logo">
-          Doletas
-        </h1>
-      </a>
-    </section>
+  <section class="upper">
+    <a href="https://github.com/samubarreto/Doletas" target="_blank">
+      <h1 class="cool-txt logo">
+        Doletas
+      </h1>
+    </a>
+  </section>
 
-    <section class="cards-grid">
-      <div class="one-card">
+  <section class="cards-grid">
+    <div class="one-card">
 
-        <p class="cool-txt">
-          <span id="js-from-1" class="bolder">ERRO</span>
-          <span> to </span>
-          <span id="js-to-1" class="bolder">ERRO</span>
+      <p class="cool-txt">
+        <span id="js-from-1" class="bolder">ERRO</span>
+        <span> to </span>
+        <span id="js-to-1" class="bolder">ERRO</span>
+      </p>
+
+      <div>
+        <p class="main-transaction-coins cool-txt gradient-animation">
+          <span>$1.00</span>
+          <span>=</span>
+          <span id="js-res-1" class="bolder">ERRO :&#40;</span>
         </p>
-
-        <div>
-          <p class="main-transaction-coins cool-txt gradient-animation">
-            <span>$1.00</span>
-            <span>=</span>
-            <span id="js-res-1" class="bolder">ERRO :&#40;</span>
-          </p>
-        </div>
-        <!-- div free-transaction -->
       </div>
 
-      <div class="one-card">
+      <!-- free-transaction -->
+      <div class="FT-container">
 
-        <p class="cool-txt">
-          <span id="js-from-2" class="bolder">ERRO</span>
-          <span> to </span>
-          <span id="js-to-2" class="bolder">ERRO</span>
-        </p>
-
-        <div>
-          <p class="main-transaction-coins cool-txt gradient-animation">
-            <span>€1.00</span>
-            <span>=</span>
-            <span id="js-res-2" class="bolder">ERRO :&#40;</span>
-          </p>
+        <div class="FT-from-container">
+          <input class="FT-input" id="js-ft-input-1" placeholder="Free convert" type="number">
+          <span class="vertical-separator"></span>
+          <p class="bolder cool-txt" id="js-from-1">USD</p>
         </div>
-        <!-- div free-transaction -->
-      </div>
 
-      <div class="one-card">
-
-        <p class="cool-txt">
-          <span id="js-from-3" class="bolder">ERRO</span>
-          <span> to </span>
-          <span id="js-to-3" class="bolder">ERRO</span>
-        </p>
-
-        <div>
-          <p class="main-transaction-coins cool-txt gradient-animation">
-            <span>£1.00</span>
-            <span>=</span>
-            <span id="js-res-3" class="bolder">ERRO :&#40;</span>
-          </p>
+        <div class="FT-to-container">
+          <p class="FT-res" id="js-ft-res-1"></p>
+          <span class="vertical-separator"></span>
+          <p class="bolder cool-txt" id="js-to-1">BRL</p>
         </div>
-        <!-- div free-transaction -->
+
       </div>
+    </div>
 
-    </section>
+    <div class="one-card">
 
-    <section class="lower">
-      <a href="https://github.com/samubarreto/Doletas" target="_blank">
-        <button class="cool-txt credits">
-          @samubarreto
-        </button>
-      </a>
-    </section>
+      <p class="cool-txt">
+        <span id="js-from-2" class="bolder">ERRO</span>
+        <span> to </span>
+        <span id="js-to-2" class="bolder">ERRO</span>
+      </p>
 
-    <script src="scripts.js"></script>
-  </body>
+      <div>
+        <p class="main-transaction-coins cool-txt gradient-animation">
+          <span>€1.00</span>
+          <span>=</span>
+          <span id="js-res-2" class="bolder">ERRO :&#40;</span>
+        </p>
+      </div>
+      <!-- free-transaction -->
+      <div class="FT-container">
+
+        <div class="FT-from-container">
+          <input class="FT-input" id="js-ft-input-2" placeholder="Free convert" type="number">
+          <span class="vertical-separator"></span>
+          <p class="bolder cool-txt" id="js-from-2">EUR</p>
+        </div>
+
+        <div class="FT-to-container">
+          <p class="FT-res" id="js-ft-res-1"></p>
+          <span class="vertical-separator"></span>
+          <p class="bolder cool-txt" id="js-to-2">BRL</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="one-card">
+
+      <p class="cool-txt">
+        <span id="js-from-3" class="bolder">ERRO</span>
+        <span> to </span>
+        <span id="js-to-3" class="bolder">ERRO</span>
+      </p>
+
+      <div>
+        <p class="main-transaction-coins cool-txt gradient-animation">
+          <span>£1.00</span>
+          <span>=</span>
+          <span id="js-res-3" class="bolder">ERRO :&#40;</span>
+        </p>
+      </div>
+      <!-- free-transaction -->
+      <div class="FT-container">
+
+        <div class="FT-from-container">
+          <input class="FT-input" id="js-ft-input-3" placeholder="Free convert" type="number">
+          <span class="vertical-separator"></span>
+          <p class="bolder cool-txt" id="js-from-3">GBP</p>
+        </div>
+
+        <div class="FT-to-container">
+          <p class="FT-res" id="js-ft-res-1"></p>
+          <span class="vertical-separator"></span>
+          <p class="bolder cool-txt" id="js-to-3">BRL</p>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <section class="lower">
+    <a href="https://github.com/samubarreto/Doletas" target="_blank">
+      <button class="cool-txt credits">
+        @samubarreto
+      </button>
+    </a>
+  </section>
+
+  <script src="scripts.js"></script>
+</body>
+
 </html>
