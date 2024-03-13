@@ -1,5 +1,5 @@
-function freeConvert(value, convert) {
-  document.getElementById('.js-ft-res-1').innerHTML = value * convert;
+function freeConvert(num, value, convert) {
+  document.getElementById(`.js-ft-res-${num}`).innerHTML = value * convert;
 }
 
 function baseFill(num, convert, payload) {
@@ -35,15 +35,15 @@ let ftInput2 = document.getElementById('js-ft-input-2');
 let ftInput3 = document.getElementById('js-ft-input-3');
 
 ftInput1.addEventListener('keydown', () => {
-  freeConvert(ftInput1.value, convert1);
+  freeConvert('1', ftInput1.value, convert1);
 });
 
 ftInput2.addEventListener('keydown', () => {
-  freeConvert(ftInput2.value, convert2);
+  freeConvert('2', ftInput2.value, convert2);
 });
 
 ftInput3.addEventListener('keydown', () => {
-  freeConvert(ftInput3.value, convert3);
+  freeConvert('3', ftInput3.value, convert3);
 });
 
 setInterval(mainCotacoes, 120000);
