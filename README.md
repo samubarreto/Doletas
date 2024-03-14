@@ -8,9 +8,8 @@
 
 ## Features e melhorias futuras 😎👍
 
-* [X] Melhorar front
-* [X] setInterval de 120s para bater na API
-* [ ] Adicionar função de conversão livre - IN PROGRESS
+* [X] setInterval de 120s para bater na API - DONE
+* [X] Adicionar função de conversão livre - FALTA DEIXAR RESPONSIVO
 * [ ] Indicação visual dos 120s
 * [ ] Botão com cooldown de 60s para bater manualmente na API e resetar os 120s automático
 * [ ] Adicionar gráfico para acompanhamento da cotação
