@@ -15,6 +15,7 @@
 * [ ] Adicionar gráfico para acompanhamento da cotação
 * [ ] Scrollbar no grid para conseguir colocar infinitas conversões
 * [ ] Usuário adicionar/Remover cards de conversão livremente e salvar no localStorage
+* [ ] Alternar card de USD-BRL pra BRL-USD com um botão
 
 </div>
 </div
