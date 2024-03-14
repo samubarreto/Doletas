@@ -1,5 +1,6 @@
 function freeConvert(num, value, convert) {
-  document.getElementById(`js-ft-res-${num}`).innerHTML = `R$${(value*convert).toFixed(2)}`;
+  document.getElementById(`js-ft-res-${num}`).innerHTML = `R$${((value).replace('e', '') * convert).toFixed(2)}`;
+  document.getElementById(`js-ft-input-${num}`).value = value.replace('e', '');
 }
 
 function baseFill(num, convert, payload) {
@@ -36,16 +37,16 @@ let ftInput2 = document.getElementById('js-ft-input-2');
 let ftInput3 = document.getElementById('js-ft-input-3');
 
 ftInput1.addEventListener('keyup', () => {
-  console.log(`1, {${ftInput1.value}} - ${convert1}`)
+  // console.log(`1, {${ftInput1.value}} - ${convert1}`)
   freeConvert('1', ftInput1.value, convert1);
 });
 
 ftInput2.addEventListener('keyup', () => {
-  console.log(`2, {${ftInput2.value}} ${convert2}`)
+  // console.log(`2, {${ftInput2.value}} ${convert2}`)
   freeConvert('2', ftInput2.value, convert2);
 });
 
 ftInput3.addEventListener('keyup', () => {
-  console.log(`3, {${ftInput3.value}} - ${convert3}`)
+  // console.log(`3, {${ftInput3.value}} - ${convert3}`)
   freeConvert('3', ftInput3.value, convert3);
 });
