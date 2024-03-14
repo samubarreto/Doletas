@@ -28,6 +28,11 @@
   border-radius: 25px;
 }
 
+.FT-res {
+  text-align: start;
+  font-size: .8rem;
+}
+
 .FT-input:focus {
   border-bottom: solid 1px #ffffff;
   outline: none;
