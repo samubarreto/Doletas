@@ -1,5 +1,5 @@
 function freeConvert(num, value, convert) {
-  document.getElementById(`js-ft-res-${num}`).innerHTML = `R$${(value*convert).toFixed(2)}`;
+  document.getElementById(`js-ft-res-${num}`).innerHTML = `R$${(value * convert).toFixed(2)}`;
 }
 
 function baseFill(num, convert, payload) {
