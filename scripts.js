@@ -1,5 +1,12 @@
 function freeConvert(num, value, convert) {
+
   document.getElementById(`js-ft-res-${num}`).innerHTML = `R$${(value * convert).toFixed(2)}`;
+
+  if (value.toString().length > 7) {
+    document.getElementById(`js-ft-res-${num}`).style.fontSize = ".7rem";
+  } else {
+    document.getElementById(`js-ft-res-${num}`).style.fontSize = ".8rem";
+  }
 }
 
 function baseFill(num, convert, payload) {

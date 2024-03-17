@@ -50,6 +50,7 @@
     opacity: 0;
     transform: translateY(-30px);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0px);
@@ -57,10 +58,13 @@
 }
 
 @keyframes startDown {
-  0%, 40% {
+
+  0%,
+  40% {
     opacity: 0;
     transform: translateY(30px);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0px);
@@ -78,6 +82,7 @@
   0% {
     background-position: 0%;
   }
+
   100% {
     background-position: 200%;
   }

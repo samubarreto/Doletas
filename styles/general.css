@@ -5,7 +5,7 @@
   font-family: "Kanit", sans-serif;
   color: #222222;
   scroll-behavior: smooth;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 input {
@@ -29,17 +29,8 @@ body {
 }
 
 ::-webkit-scrollbar {
-  /*display: none;*/
+  display: none;
   width: .5em;
-}
-
-::-webkit-scrollbar-track {
-  background: #c4ffc4;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #4cfd52;
-  border: .1em solid #e3e3e3;
 }
 
 main {
