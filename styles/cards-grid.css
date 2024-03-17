@@ -38,7 +38,7 @@
 
 @media (max-width: 820px) {
   .cards-grid {
-    border-radius: 25px;
+    border-radius: 50px;
     grid-template-columns: 1fr;
     padding: 10px;
     gap: 10;

@@ -17,8 +17,8 @@
 
 @media (max-width: 820px) {
   .one-card {
-    border-radius: 25px;
-    grid-template-columns: 1fr 1fr;
+    border-radius: 50px;
+    grid-template-columns: .8fr 1.2fr;
     align-items: center;
   }
 }

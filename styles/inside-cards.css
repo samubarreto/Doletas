@@ -6,7 +6,7 @@
 .main-transaction-coins,
 .FT-from-container,
 .FT-to-container {
-  border-radius: 25px;
+  border-radius: 50px;
   background-color: #cccccc1a;
   border: 2px solid rgba(204, 204, 204, .3);
   padding: 3px 15px;
@@ -30,7 +30,7 @@
   transition: all 0.15s;
   color: #ffffff;
   padding: 0 5px;
-  border-radius: 25px;
+  border-radius: 50px;
 }
 
 .FT-res {
@@ -72,6 +72,6 @@
   }
 
   .FT-container {
-    margin-right: 10px;
+    align-items: center;
   }
 }
