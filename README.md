@@ -2,7 +2,7 @@
 
 # Acompanhe o desenvolvimento do 💲Doletas: [AQUI](https://samubarreto.github.io/Doletas/)
 
-  [![image](https://github.com/samubarreto/Doletas/assets/70921394/3bd1aebb-5c61-4c3d-ae30-fd0eef5eef5b)](https://samubarreto.github.io/Doletas/)
+  ![image](https://github.com/samubarreto/Doletas/assets/70921394/f3a485e2-71ba-4172-b6ab-443fb068f00e)
 
 <div align="left">
 
