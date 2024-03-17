@@ -64,4 +64,14 @@
   .coin-name {
     font-size: 2rem;
   }
+
+  .main-transaction-coins,
+  .FT-from-container,
+  .FT-to-container {
+    padding: 5px;
+  }
+
+  .FT-container {
+    margin-right: 10px;
+  }
 }
