@@ -75,3 +75,15 @@
     align-items: center;
   }
 }
+
+@media (max-width: 530px) {
+  body {
+    font-size: .8rem !important;
+  }
+
+  .FT-input,
+  .FT-res {
+    max-width: 115px;
+    min-width: 115px
+  }
+}

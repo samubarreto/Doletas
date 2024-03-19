@@ -22,3 +22,9 @@
     align-items: center;
   }
 }
+
+@media (max-width: 530px) {
+  .one-card {
+    border-radius: 30px;
+  }
+}

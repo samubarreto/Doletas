@@ -48,3 +48,9 @@
     padding: 3px 10px;
   }
 }
+
+@media (max-width: 530px) {
+  .cards-grid {
+    border-radius: 30px;
+  }
+}
