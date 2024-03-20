@@ -23,7 +23,7 @@
   }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 410px) {
   .one-card {
     border-radius: 30px;
   }

@@ -40,7 +40,7 @@ main {
   flex-direction: column;
 }
 
-@media (max-width: 530px) {
+@media (max-width: 410px) {
   p {
     font-size: .8rem;
   }
