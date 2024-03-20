@@ -3,12 +3,21 @@ function formatarMoeda(value) {
 }
 
 function freeConvert(num, value, convert) {
-  document.getElementById(`js-ft-res-${num}`).innerHTML = `R$${formatarMoeda(value * convert)}`;
+  const ftResP = document.getElementById(`js-ft-res-${num}`);
 
-  if (value.toString().length > 7) {
-    document.getElementById(`js-ft-res-${num}`).style.fontSize = ".7rem";
+  if (isNaN(value) || value === '') {
+    ftResP.innerHTML = '';
   } else {
-    document.getElementById(`js-ft-res-${num}`).style.fontSize = ".8rem";
+    ftResP.innerHTML = `R$${formatarMoeda(value * convert)}`;
+    var length = value.toString().length;
+
+    if (length > 7 && length < 12) {
+      ftResP.style.fontSize = ".7rem";
+    } else if (length >= 12) {
+      ftResP.style.fontSize = ".6rem";
+    } else {
+      ftResP.style.fontSize = ".8rem";
+    }
   }
 }
 
