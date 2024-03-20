@@ -9,15 +9,8 @@ function freeConvert(num, value, convert) {
     ftResP.innerHTML = '';
   } else {
     ftResP.innerHTML = `R$${formatarMoeda(value * convert)}`;
-    var length = value.toString().length;
-
-    if (length > 7 && length < 12) {
-      ftResP.style.fontSize = ".7rem";
-    } else if (length >= 12) {
-      ftResP.style.fontSize = ".6rem";
-    } else {
-      ftResP.style.fontSize = ".8rem";
-    }
+    let length = value.toString().length;
+    ftResP.style.fontSize = length > 7 ? (length >= 15 ? ".55rem" : (length >= 12 ? ".6rem" : ".7rem")) : ".8rem";
   }
 }
 
@@ -45,6 +38,9 @@ const mainCotacoes = () => {
         });
       }
     })
+    .catch(error => {
+      console.error('Erro ao obter cotações:', error);
+    });
 };
 
 mainCotacoes();
