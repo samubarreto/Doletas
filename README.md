@@ -1,13 +1,13 @@
 <div align="center">
 
 # Dá uma ⭐ no repositório pf 🙏 obg
-# Acompanhe o desenvolvimento do 💲Doletas: [AQUI](https://samubarreto.github.io/Doletas/)
+## Acompanhe o desenvolvimento do 💲Doletas: [AQUI](https://samubarreto.github.io/Doletas/)
 
   ![image](https://github.com/samubarreto/Doletas/assets/70921394/f3a485e2-71ba-4172-b6ab-443fb068f00e)
 
 <div align="left">
 
-## Features e melhorias futuras 😎👍
+### Features e melhorias futuras 😎👍
 
 * [X] setInterval de 120s para bater na API - DONE
 * [X] Adicionar função de conversão livre - DONE
