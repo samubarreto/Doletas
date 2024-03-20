@@ -5,7 +5,7 @@ function formatarMoeda(value) {
 function freeConvert(num, value, convert) {
   const ftResP = document.getElementById(`js-ft-res-${num}`);
 
-  if (isNaN(value) || value === '') {
+  if (isNaN(value)) {
     ftResP.innerHTML = '';
   } else {
     ftResP.innerHTML = `R$${formatarMoeda(value * convert)}`;
