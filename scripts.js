@@ -1,3 +1,5 @@
+let length, ftInput1, ftInput2, ftInput3, adviceElement, c = 120;
+
 function formatarMoeda(value) {
   return value.toFixed(2).replace(/\./g, ',').replace(/\d(?=(\d{3})+,)/g, '$&.');
 }
@@ -9,7 +11,7 @@ function freeConvert(num, value, convert) {
     ftResP.innerHTML = '';
   } else {
     ftResP.innerHTML = `R$${formatarMoeda(value * convert)}`;
-    let length = value.toString().length;
+    length = value.toString().length;
     ftResP.style.fontSize = length > 7 ? (length >= 15 ? ".55rem" : (length >= 12 ? ".6rem" : ".7rem")) : ".8rem";
   }
 }
@@ -25,6 +27,16 @@ function fillJs(payload) {
   baseFill('2', 'EURBRL', payload);
   baseFill('3', 'GBPBRL', payload);
 };
+
+const counter = () => {
+  adviceElement = document.getElementById('js-advice');
+  c -= 1;
+  adviceElement.innerHTML = `Faltam ${c} segundos para as cotações atualizarem automaticamente`
+  if (c === 0) {
+    c = 120;
+    mainCotacoes();
+  }
+}
 
 const mainCotacoes = () => {
   fetch('https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,GBP-BRL')
@@ -44,11 +56,11 @@ const mainCotacoes = () => {
 };
 
 mainCotacoes();
-setInterval(mainCotacoes, 120000);
+setInterval(counter, 1050);
 
-let ftInput1 = document.getElementById('js-ft-input-1');
-let ftInput2 = document.getElementById('js-ft-input-2');
-let ftInput3 = document.getElementById('js-ft-input-3');
+ftInput1 = document.getElementById('js-ft-input-1');
+ftInput2 = document.getElementById('js-ft-input-2');
+ftInput3 = document.getElementById('js-ft-input-3');
 
 ftInput1.addEventListener('keyup', () => {
   freeConvert('1', parseFloat(ftInput1.value), convert1);

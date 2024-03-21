@@ -21,6 +21,21 @@
   animation: startUp .5s ease-in-out, gradientAnimation 4s linear infinite;
 }
 
+.advice-container {
+  animation: startUp .5s ease-in-out;
+  border-radius: 50px;
+  background-color: #484848;
+  border: 2px solid rgba(204, 204, 204, .3);
+}
+
+.advice {
+  font-size: .8rem;
+  padding: 3px 15px;
+  animation: startUp .5s ease-in-out, gradientAnimation 4s linear infinite;
+  color: #ffffff;
+  background-color: linear-gradient(to right, #c4ffc4, #9bec9b, #4cfd52, #4cfd52);
+}
+
 .credits {
   margin-top: 1rem;
   cursor: pointer;
