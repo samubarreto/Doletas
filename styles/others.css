@@ -16,6 +16,7 @@
 }
 
 .logo {
+  margin-bottom: -9.5px;
   font-weight: 600;
   font-size: 4rem;
   animation: startUp .5s ease-in-out, gradientAnimation 4s linear infinite;

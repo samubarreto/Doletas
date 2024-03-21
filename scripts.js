@@ -29,14 +29,21 @@ function fillJs(payload) {
 };
 
 const counter = () => {
-  adviceElement = document.getElementById('js-advice');
+  const adviceElement = document.getElementById('js-advice');
   c -= 1;
-  adviceElement.innerHTML = `Atualizando cotações em ${c} segundos`
+  adviceElement.innerHTML = `Atualizando cotações em ${c} segundos`;
+
   if (c === 0) {
-    c = 120;
-    mainCotacoes();
+    adviceElement.innerHTML = `As cotações foram atualizadas!`;
+    clearInterval(idIntervalo);
+
+    setTimeout(() => {
+      c = 120;
+      mainCotacoes();
+      idIntervalo = setInterval(counter, 1050);
+    }, 3000);
   }
-}
+};
 
 const mainCotacoes = () => {
   fetch('https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,GBP-BRL')
@@ -56,7 +63,7 @@ const mainCotacoes = () => {
 };
 
 mainCotacoes();
-setInterval(counter, 1050);
+let idIntervalo = setInterval(counter, 1050);
 
 ftInput1 = document.getElementById('js-ft-input-1');
 ftInput2 = document.getElementById('js-ft-input-2');
