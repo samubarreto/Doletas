@@ -31,7 +31,7 @@ function fillJs(payload) {
 const counter = () => {
   adviceElement = document.getElementById('js-advice');
   c -= 1;
-  adviceElement.innerHTML = `Faltam ${c} segundos para as cotações atualizarem automaticamente`
+  adviceElement.innerHTML = `Atualizando cotações em ${c} segundos`
   if (c === 0) {
     c = 120;
     mainCotacoes();

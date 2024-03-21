@@ -29,6 +29,7 @@
 }
 
 .advice {
+  text-wrap: wrap;
   font-size: .8rem;
   padding: 3px 15px;
   animation: startUp .5s ease-in-out, gradientAnimation 4s linear infinite;

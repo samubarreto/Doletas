@@ -49,7 +49,7 @@
   }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 425px) {
   .cards-grid {
     border-radius: 30px;
   }

@@ -75,7 +75,7 @@
   }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 425px) {
   body {
     font-size: .8rem !important;
   }

@@ -41,13 +41,14 @@ main {
 }
 
 .upper {
+  max-width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-@media (max-width: 410px) {
+@media (max-width: 425px) {
   p {
     font-size: .8rem;
   }
