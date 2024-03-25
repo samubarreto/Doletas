@@ -41,7 +41,7 @@ const counter = () => {
       mainCotacoes();
       idIntervalo = setInterval(counter, 1050);
     }, 3000);
-  } else if (c > 50 && c < 55) {
+  } else if (c > 50 && c < 60 || c > 90 && c < 100 || c > 10 && c < 20) {
     adviceElement.innerHTML = `(${c}s) Dê uma &#11088 no repositório, por gentileza =)`;
   } else {
     adviceElement.innerHTML = `Atualizando cotações em ${c} segundos`;
