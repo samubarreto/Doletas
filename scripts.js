@@ -42,7 +42,7 @@ const counter = () => {
       idIntervalo = setInterval(counter, 1050);
     }, 3000);
   } else if (c > 50 && c < 55) {
-    adviceElement.innerHTML = `Dê uma &#11088 no repositório, por gentileza :)`;
+    adviceElement.innerHTML = `(${c}s) Dê uma &#11088 no repositório, por gentileza =)`;
   } else {
     adviceElement.innerHTML = `Atualizando cotações em ${c} segundos`;
   };
