@@ -31,7 +31,6 @@ function fillJs(payload) {
 const counter = () => {
   const adviceElement = document.getElementById('js-advice');
   c -= 1;
-  adviceElement.innerHTML = `Atualizando cotações em ${c} segundos`;
 
   if (c === 0) {
     adviceElement.innerHTML = `As cotações foram atualizadas!`;
@@ -42,7 +41,11 @@ const counter = () => {
       mainCotacoes();
       idIntervalo = setInterval(counter, 1050);
     }, 3000);
-  }
+  } else if (c > 50 && c < 55) {
+    adviceElement.innerHTML = `Dê uma &#11088 no repositório, por gentileza :)`;
+  } else {
+    adviceElement.innerHTML = `Atualizando cotações em ${c} segundos`;
+  };
 };
 
 const mainCotacoes = () => {
