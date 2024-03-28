@@ -12,8 +12,8 @@
 * [X] setInterval de 120s para bater na API - DONE
 * [X] Adicionar função de conversão livre - DONE
 * [X] Indicação visual dos 120s - DONE
-* [ ] Pedir ⭐ no repositório pelo timer - IN PROGRESS
-* [ ] Botão com cooldown de 60s para bater manualmente na API e resetar os 120s automático
+* [X] Pedir ⭐ no repositório pelo timer - DONE
+* [ ] Ajustar o CSS RUIM - IN PROGRESS
 * [ ] Alternar card de MOEDA1-MOEDA2 pra MOEDA2-MOEDA1 com um botão
 * [ ] Adicionar gráfico para acompanhamento da cotação
 * [ ] Scrollbar no grid para conseguir colocar infinitas conversões
