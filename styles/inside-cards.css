@@ -67,7 +67,7 @@
   .main-transaction-coins,
   .FT-from-container,
   .FT-to-container {
-    padding: 5px;
+    padding: 2px 5px;
   }
 
   .FT-container {
@@ -76,9 +76,6 @@
 }
 
 @media (max-width: 425px) {
-  body {
-    font-size: .8rem !important;
-  }
 
   .FT-input,
   .FT-res {
