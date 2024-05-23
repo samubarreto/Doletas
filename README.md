@@ -14,14 +14,14 @@
 * [X] Adicionar função de conversão livre - DONE
 * [X] Indicação visual dos 120s - DONE
 * [X] Pedir ⭐ no repositório pelo timer - DONE
-* [ ] Alternar card de MOEDA1-MOEDA2 pra MOEDA2-MOEDA1 com um botão
+* [ ] Alternar card de MOEDA1-MOEDA2 pra MOEDA2-MOEDA1 com um botão - TO DO
 * [ ] Adicionar gráfico para acompanhamento da cotação
 * [ ] Scrollbar no grid para conseguir colocar infinitas conversões
 * [ ] Usuário adicionar/Remover cards de conversão livremente e salvar no localStorage
 
 </div>
 
-[👇 Veja meu portfólio abaixo](https://samubarreto.github.io/Portfolio/)`<br>`
+[👇 Veja meu portfólio abaixo](https://samubarreto.github.io/Portfolio/)
 [![github-banner](https://github.com/samubarreto/samubarreto/assets/70921394/09b2b8b6-8264-4e34-a224-bf009f7307b5)](https://samubarreto.github.io/Portfolio/)
 
 </div
