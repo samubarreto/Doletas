@@ -6,22 +6,22 @@
 
   [![image](https://github.com/samubarreto/Doletas/assets/70921394/f3a485e2-71ba-4172-b6ab-443fb068f00e)](https://samubarreto.github.io/Doletas/)
 
+</div>
+
 <div align="left">
 
 ### Features e melhorias futuras 😎👍
 
-* [X] setInterval de 120s para bater na API - DONE
-* [X] Adicionar função de conversão livre - DONE
-* [X] Indicação visual dos 120s - DONE
-* [X] Pedir ⭐ no repositório pelo timer - DONE
-* [ ] Alternar card de MOEDA1-MOEDA2 pra MOEDA2-MOEDA1 com um botão - TO DO
+* [X] setInterval de 120s para bater na API
+* [X] Adicionar função de conversão livre
+* [X] Indicação visual dos 120s
+* [X] Pedir ⭐ no repositório pelo timer
+* [ ] Alternar card de MOEDA1-MOEDA2 pra MOEDA2-MOEDA1 com um botão
 * [ ] Adicionar gráfico para acompanhamento da cotação
 * [ ] Scrollbar no grid para conseguir colocar infinitas conversões
 * [ ] Usuário adicionar/Remover cards de conversão livremente e salvar no localStorage
 
+  [![Portfolio](https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white)](https://samubarreto.github.io/Portfolio/)
+  [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samubrreto/)<br>
+
 </div>
-
-[👇 Veja meu portfólio abaixo](https://samubarreto.github.io/Portfolio/)<br>
-[![github-banner](https://github.com/samubarreto/samubarreto/assets/70921394/09b2b8b6-8264-4e34-a224-bf009f7307b5)](https://samubarreto.github.io/Portfolio/)
-
-</div
